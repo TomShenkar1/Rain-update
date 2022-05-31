@@ -3,7 +3,7 @@ from twilio.rest import Client
 
 MYLAT = YOUR LATITUDE
 MYLONG = YOUR LONGITUDE
-api_key = "b2e75fb06a6ab5809cf6a28abc56c7e7"
+api_key = "YOUR API KEY"
 OWM_endpoint = "https://api.openweathermap.org/data/2.5/onecall"
 account_sid = "AC7612272defdc4b3a2619fe0944504935"
 auth_token = "5697fccae3c877df4d03a7ba0c20b4a2"

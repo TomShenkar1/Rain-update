@@ -1,8 +1,8 @@
 import requests
 from twilio.rest import Client
 
-MYLAT = 32.161282
-MYLONG = 34.902519
+MYLAT = YOUR LATITUDE
+MYLONG = YOUR LONGITUDE
 api_key = "b2e75fb06a6ab5809cf6a28abc56c7e7"
 OWM_endpoint = "https://api.openweathermap.org/data/2.5/onecall"
 account_sid = "AC7612272defdc4b3a2619fe0944504935"
@@ -33,8 +33,8 @@ if will_rain:
     message = client.messages \
         .create(
         body="Hey Tom! it is going to rain today, remember to take an ☂️",
-        from_= "+12344053693",
-        to="+972503043123"
+        from_= "TWILIO NUMBER",
+        to="YOUR PHONE NUMBER"
     )
 
 
